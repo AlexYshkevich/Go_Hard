@@ -8,7 +8,7 @@
 using namespace std;
 
 struct stroka
-{
+{ 
 	string name;
 	string surname;
 	short year;
