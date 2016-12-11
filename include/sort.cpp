@@ -8,7 +8,7 @@
 using namespace std;
 
 struct stroka
-{ 
+{
 	string name;
 	string surname;
 	short year;
@@ -19,12 +19,12 @@ struct stroka
 	}
 };
 
-bool operator < (const stroka& s1, const stroka& s2)
+bool operator < (const stroka & s1, const stroka& s2)
 {
 	return (s1.name < s2.name);
 }
 
-bool operator >(const stroka& s1, const stroka& s2)
+bool operator >(const stroka & s1, const stroka& s2)
 {
 	return (s1.name > s2.name);
 }
@@ -112,4 +112,3 @@ void sort_it(const string input_name, const string output_name, const short mem_
 	}
 	fout.close();
 }
-
